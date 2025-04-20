@@ -7,6 +7,7 @@ import Link from 'next/link';
 import React from 'react';
 import portfolioWebsiteOverview from '../../public/images/projects/portfolio-website-overview.jpg';
 import niemandcover from '../../public/images/projects/niemand-website-overview.jpg';
+import simeonCover from '../../public/images/projects/simeonOhlsen-website-overview.webp';
 import { motion } from 'framer-motion';
 import TransitionEffect from '../components/TransitionEffect';
 
@@ -150,22 +151,21 @@ const projects = () => {
           <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-y-20 xs:gap-x-0">
             <div className="col-span-12">
               <FeaturedProject
-                title="Pottery E-commerce Store"
-                img={niemandcover}
+                title="Personal Website Simeon Ohlsen"
+                img={simeonCover}
                 summary="A fully responsive e-commerce store, using ReactJS, PostgreSQL database migration, user authentication/authorization and a integrated checkout-page by the Stripe-API."
-                link="https://pjct-next-ecommerce-niemand.onrender.com/"
-                github="https://github.com/FirstLearnJava/pjct-next-ecommerce-niemand"
+                link="https://simeonohlsen.com/"
+                github="https://github.com/FirstLearnJava/personal-website-simeon"
                 type="Featured project"
               />
             </div>
             <div className="col-span-6 md:col-span-12">
               <Project
-                title="React Portfolio Website"
-                img={portfolioWebsiteOverview}
-                summary="A professional portfolio website using React JS, Framer-motion, and Styled-components. It has smooth
-page transitions, cool background effects, unique design and it is mobile responsive."
-                link="/"
-                github="/"
+                title="E-commerce Pottery Store"
+                img={niemandcover}
+                summary="A fully responsive e-commerce store, using ReactJS, PostgreSQL database migration, user authentication/authorization and a integrated checkout-page by the Stripe-API."
+                link="https://pjct-next-ecommerce-niemand.onrender.com/"
+                github="https://github.com/FirstLearnJava/pjct-next-ecommerce-niemand"
                 type="Project"
               />
             </div>
@@ -175,8 +175,8 @@ page transitions, cool background effects, unique design and it is mobile respon
                 img={portfolioWebsiteOverview}
                 summary="A professional portfolio website using React JS, Framer-motion, and Styled-components. It has smooth
 page transitions, cool background effects, unique design and it is mobile responsive."
-                link="/"
-                github="/"
+                link="https://portfolio-matthias-floimayr.netlify.app/"
+                github="https://github.com/FirstLearnJava/my-portfolio"
                 type="Project"
               />
             </div>
