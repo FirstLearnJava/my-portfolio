@@ -8,6 +8,7 @@ import React from 'react';
 import portfolioWebsiteOverview from '../../public/images/projects/portfolio-website-overview.jpg';
 import niemandcover from '../../public/images/projects/niemand-website-overview.jpg';
 import simeonCover from '../../public/images/projects/simeonOhlsen-website-overview.webp';
+import easyCalculator from '../../public/images/projects/easy-calculator.webp';
 import { motion } from 'framer-motion';
 import TransitionEffect from '../components/TransitionEffect';
 
@@ -177,6 +178,16 @@ const projects = () => {
 page transitions, cool background effects, unique design and it is mobile responsive."
                 link="https://portfolio-matthias-floimayr.netlify.app/"
                 github="https://github.com/FirstLearnJava/my-portfolio"
+                type="Project"
+              />
+            </div>
+            <div className="col-span-6 md:col-span-12">
+              <Project
+                title="Easy Calculator"
+                img={easyCalculator}
+                summary="A simple calculator, with useReducer state management."
+                link="https://calciteasy.netlify.app/"
+                github="https://github.com/FirstLearnJava/pjct-next-calculator"
                 type="Project"
               />
             </div>
