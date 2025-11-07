@@ -23,6 +23,7 @@ const singleWord = {
     opacity: 1,
     y: 0,
     transition: {
+      delay: 0.7,
       duration: 1,
     },
   },
