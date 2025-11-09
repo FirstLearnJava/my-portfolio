@@ -9,6 +9,7 @@ import portfolioWebsiteOverview from '../../public/images/projects/portfolio-web
 import niemandcover from '../../public/images/projects/niemand-website-overview.jpg';
 import simeonCover from '../../public/images/projects/simeonOhlsen-website-overview.webp';
 import easyCalculator from '../../public/images/projects/easy-calculator.webp';
+import randomMemeGenerator from '../../public/images/projects/random-meme-generator.webp';
 import { motion } from 'framer-motion';
 import TransitionEffect from '../components/TransitionEffect';
 
@@ -162,7 +163,7 @@ const projects = () => {
             </div>
             <div className="col-span-6 md:col-span-12">
               <Project
-                title="E-commerce Pottery Store"
+                title="Pottery E-commerce"
                 img={niemandcover}
                 summary="A fully responsive e-commerce store, using ReactJS, PostgreSQL database migration, user authentication/authorization and a integrated checkout-page by the Stripe-API."
                 link="https://pjct-next-ecommerce-niemand.onrender.com/"
@@ -183,11 +184,21 @@ page transitions, cool background effects, unique design and it is mobile respon
             </div>
             <div className="col-span-6 md:col-span-12">
               <Project
-                title="Easy Calculator"
+                title="Calculate it Easy!"
                 img={easyCalculator}
-                summary="A simple calculator, with useReducer state management."
+                summary="A calculator, with useReducer state management."
                 link="https://calciteasy.netlify.app/"
                 github="https://github.com/FirstLearnJava/pjct-next-calculator"
+                type="Project"
+              />
+            </div>
+            <div className="col-span-6 md:col-span-12">
+              <Project
+                title="Random Meme Generator"
+                img={randomMemeGenerator}
+                summary="A page to generate over 300 random memes."
+                link="https://generate-random-meme.netlify.app/"
+                github="https://github.com/FirstLearnJava/new-pjct-react-2-meme-generator"
                 type="Project"
               />
             </div>
