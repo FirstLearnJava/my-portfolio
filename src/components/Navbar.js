@@ -476,7 +476,7 @@ const Navbar = () => {
           <Logo className="absolute left-[50%] top-2 translate-x-[-50%]" />
         </div>
         <nav className="flex justify-center items-center flex-wrap">
-          <motion.a
+          {/* <motion.a
             href="https://twitter.com/dierosamariposa"
             target={'_blank'}
             whileHover={{ y: -2 }}
@@ -484,7 +484,7 @@ const Navbar = () => {
             className="w-6 mx-3"
           >
             <TwitterIcon />
-          </motion.a>
+          </motion.a> */}
           <motion.a
             href="https://github.com/FirstLearnJava"
             target={'_blank'}
