@@ -166,7 +166,7 @@ const projects = () => {
                 title="Pottery E-commerce"
                 img={niemandcover}
                 summary="A fully responsive e-commerce store, using ReactJS, PostgreSQL database migration, user authentication/authorization and a integrated checkout-page by the Stripe-API."
-                link="https://pjct-next-ecommerce-niemand.onrender.com/"
+                link="https://pjct-ecommerce-niemand.onrender.com/"
                 github="https://github.com/FirstLearnJava/pjct-next-ecommerce-niemand"
                 type="Project"
               />
